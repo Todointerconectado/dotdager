@@ -1,4 +1,4 @@
-# Dot Dager - Página Personal
+# 🎸🎼 Dot Dager 🐈🥒 - Página Personal
 
 ![banner_youtube](./assets/images/banner_youtube.jpg)
 

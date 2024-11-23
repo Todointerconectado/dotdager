@@ -2,7 +2,7 @@
 
 ![banner_youtube](./assets/images/banner_youtube.jpg)
 
-- [https://todointerconectado.com/dotdager)](https://todointerconectado.com/dotdager)
+- [https://todointerconectado.com/dotdager](https://todointerconectado.com/dotdager)
 
 Esta es la página personal de Mariano Villa, también conocido como **Dot Dager**. En este sitio, podrás encontrar información sobre su contenido en YouTube, redes sociales y algunos de sus videos más recientes.
 

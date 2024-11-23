@@ -10,6 +10,7 @@
     <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="stylesheet" href="./css/form.css">
 
     <!-- meta SEO -->
     <meta name="title" content="DOT DAGER 🥒">
@@ -94,6 +95,50 @@
           <lite-youtube videoid="FMfLfYus6Yc"></lite-youtube>
         </div>
       </section>
+
+      <section class="form__container">
+        <form class="form" action="https://formspree.io/f/mrbgqjyw"
+        method="POST">
+            <fieldset class="form__fieldset">
+                <legend>
+                    <h2 class="form__title" id="form">Formulario de Contacto</h2>
+                </legend>
+    
+                <!-- Campo Nombre -->
+                <label for="name" class="form__label form__name">
+                    <input class="form__input" type="text" name="name" id="name" placeholder="Nombre" required>
+                    <p class="form__input-name">nombre</p>
+                    <span class="form__icon">
+                        <span class="form__obrigatorio"><i class="fa-solid fa-asterisk"></i></span>
+                        <i class="fa-solid fa-user-pen"></i>
+                    </span>
+                </label>
+    
+                <!-- Campo Correo -->
+                <label for="email" class="form__label form__email">
+                    <input class="form__input" type="email" name="email" id="email" placeholder="Correo" required>
+                    <p class="form__input-name">Correo</p>
+                    <span class="form__icon">
+                        <span class="form__obrigatorio"><i class="fa-solid fa-asterisk"></i></span> 
+                        <i class="fa-solid fa-at"></i>
+                    </span>
+                </label>
+    
+                <!-- Campo Mensaje -->
+                <label for="mensaje" class="form__label form__area">
+                    <textarea class="form__input form__input" id="mensaje" name="mensaje" placeholder="Mensaje" rows="5"></textarea>
+                    <p class="form__input-name">Mensaje</p>
+                    <span class="form__icon"><i class="fa-solid fa-file-signature"></i></span>
+                </label>
+    
+                <!-- Botón de Enviar -->
+                <button class="form__btn" type="submit">
+                    <span>Hablemos</span>
+                    <i class="fa-solid fa-square-arrow-up-right"></i>
+                </button>
+            </fieldset>
+        </form>
+    </section>
     </main>
   </body>
 </html>
